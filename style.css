@@ -1,0 +1,88 @@
+body{
+	font-family: "Consolas",monospace;
+
+}
+
+
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  background-color: #25286B;
+  position: sticky;
+  top: 0;
+}
+
+li{
+  display: inline;
+  float: left;
+}
+
+li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+}
+
+li a:hover{
+  background-color: #4247AB;
+}
+
+.current{
+  background-color: #4247AB;
+}
+
+#header{
+	text-align: center;
+	color: #25286B;
+
+}
+
+img{
+	display: block;
+	height: 150px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+#banner{
+	padding: 70px;
+}
+
+#title{
+	color: #25286B;
+}
+
+#news{
+	font-weight: bold;
+}
+
+#calendar{
+	border-radius: 10px;
+	display: block;
+	margin: 0 auto;
+}
+
+#footer{
+	background-color: #25286B;
+	color: white;
+	padding: 0.5px;
+	display: block;
+}
+
+#footerp{
+	text-align: center;
+}
+
+.fa{
+	font-size: 20000px;
+	margin: 3px;
+	width: 20px;
+	text-align: center;
+	text-decoration: none;
+}
+
