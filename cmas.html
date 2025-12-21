@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<style>
+  body{
+    font-family: Georgia,serif;
+    color: #C82909;
+    text-align: center;
+  }
+
+</style>
+
+<script>
+  var countDownDate = new Date("Dec 25, 2025 00:00:00").getTime();
+
+  // Update the count down every 1 second
+  var x = setInterval(function() {
+
+    // Get today's date and time
+    var now = new Date().getTime();
+
+    // Find the distance between now and the count down date
+    var distance = countDownDate - now;
+
+    // Time calculations for days, hours, minutes and seconds
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+    // Display the result in the element with id="demo"
+     document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+    + minutes + "m " + seconds + "s ";
+
+    if (distance < 0) {
+      clearInterval(x);
+      document.getElementById("demo").innerHTML = "EXPIRED";
+    }
+  }, 1000);
+</script>
+
+<html>
+	<head>
+
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="style.css" rel="stylesheet" type="text/css" media="all">
+		<link href="fugastra.jpeg" rel = "icon" type = "image/jpeg">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<title>Fugastra's Portfolio</title>
+
+	</head>
+	<body>
+		<h1>To 4Brio - Merry Christmas</h1>
+
+    <form action="/x-mas" method="post">
+  	  <input type="image" src="gift.png">
+    </form>
+
+    <h2 id="demo" class= "4B"></h2> 
+    <h2>Tap the present when the time is up</h2>  
+
+    <div>
+		  <p id = "footerp">Copyright: 2025 ZHANG Jason</p>
+		</div>
+	</body>
+
+</html>
