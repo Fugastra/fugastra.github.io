@@ -41,12 +41,28 @@ li a:hover{
 
 }
 
-img{
+.header{
 	display: block;
 	height: 150px;
 	margin-left: auto;
 	margin-right: auto;
+}
 
+.pfp{
+  display: block;
+  height: 200px;
+  width: auto;
+  float: left;
+}
+
+.abt{
+  width = 50%;
+  left: 50%;
+  margin-left: 25%;
+}
+
+.info{
+  font-size: 18px;
 }
 
 #banner{
@@ -55,6 +71,7 @@ img{
 
 #title{
 	color: #25286B;
+  font-size: 26px;
 }
 
 #news{
@@ -111,4 +128,18 @@ div.desc{
 .responsive{
 	padding: 67px 16px;
 	float: left;
+}
+
+.btnv{
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  display: flex;
+}
+
+#btn{
+  margin-left: 5px;
+  margin-right: 5px;
+  height = 33px;
+  width = 88px; 
 }
