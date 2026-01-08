@@ -180,3 +180,23 @@ hr{
   background-image: url('box.jpeg');
 
 }
+
+.share{
+  background-color: #FFFFFF;
+  border: none;
+  border-radius: 50%;
+}
+
+.share:hover{
+  box-shadow:0 8px 16px 0 rgba(237,17,44,0.6)
+}
+
+.socials{
+  border:none;
+  border-radius: 67%;
+}
+
+.socials:hover{
+  box-shadow:0 8px 16px 0 rgba(237,17,44,0.6)
+}
+
