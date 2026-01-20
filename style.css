@@ -111,6 +111,7 @@ div.gallery{
 
 div.gallery:hover{
 	border: 2px solid #4247AB;
+  background-color: #FEFAE2;
 }
 
 div.gallery img{
@@ -130,8 +131,8 @@ div.desc{
 
 .responsive{
 	padding: 5px 6px;
-  float: left;
-  width: 24.99999%;
+  width: 45%;
+  display: inline-block;
 }
 
 @media only screen and (max-width: 700px) {
@@ -197,6 +198,14 @@ hr{
 }
 
 .socials:hover{
-  box-shadow:0 8px 16px 0 rgba(237,17,44,0.6)
+  box-shadow:0 8px 16px 0 rgba(237,17,44444,0.6)
 }
 
+.codebox {
+        justify-content: center;
+        width:100%;
+        overflow:auto;    
+        padding:10px;
+        text-align: center;
+}
+    
