@@ -4,7 +4,7 @@ body{
 }
 
 
-ul {
+.resnav{
   list-style-type: none;
   overflow: hidden;
   padding: 0;
@@ -14,20 +14,47 @@ ul {
   top: 0;
 }
 
-li{
+.resnav .hidden{
+  display:none;
+}
+
+@media screen and (max-width: 600px) {
+  .resnav a:not(:first-child) {display: none;}
+  .resnav a.hidden {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .resnav.respon {position: relative;}
+  .resnav.respon a.hidden {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .resnav.respon a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+
+.resnav a{
   display: inline;
   float: left;
 }
 
-li a{
-  display: block;
+.resnav a{
+  display: flex;
   color: white;
   text-align: center;
   padding: 20px 20px;
   text-decoration: none;
 }
 
-li a:hover{
+.resnav a:hover{
   background-color: #4247AB;
 }
 
@@ -61,6 +88,11 @@ li a:hover{
   margin-left: 25%;
   margin-right: 25%;
   border: 2px solid #25286B;
+  display: block;
+}
+
+.abt text{
+  position: absolute;
 }
 
 .info{

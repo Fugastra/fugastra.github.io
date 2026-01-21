@@ -8,6 +8,7 @@
 		<link href="style.css" rel="stylesheet" type="text/css" media="all">
 		<link href="fugastra.jpeg" rel = "icon" type = "image/jpeg">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src= "script.js"></script>
 		<title>Fugastra's Portfolio</title>
 
 	</head>
@@ -17,14 +18,15 @@
 			<h1 id = "header">Fugastra | 七月流火</h1>
 			<p id = "header">七月流火，八月萑葦 -- 《诗经》</p>
 		</header>
-		<ul>
- 			<li><a href = "index.html">Home | 主頁</a></li>
-  		<li class = "current"><a href = "about.html">About | 關於</a></li>
-  		<li><a href = "met.html">Now | 現時報道</a></li>
-      <li style = "float: right;"><a href = "mailto:fugastra.qylh@gmail.com?subject=Hello :3">Email</a></li>
+		
+    <div class = "resnav" id = "naa">
+ 		  <a href = "index.html">Home | 主頁</id>
+  		<a href = "about.html" class = "current">About | 關於</id>
+  		<a href = "met.html">Now | 現時報道</a>
+      <a style = "float: right;" href = "mailto:fugastra.qylh@gmail.com?subject=Hello :3">Email</a>
+      <a href="javascript:void(0);" onclick = "ham()" class = "hidden" style= "float: right; padding: 5px 5px"><img height = "50px" width = "50px" src= "imgs/ham.png"></a>
+    </div>
 
-		</ul>
-	 	
 		  <h2 id = "title" style = "text-align: center;">About.json</h2>
     <div class = "abt">
       <img class = "pfp" src ="imgs/pfp.jpeg">

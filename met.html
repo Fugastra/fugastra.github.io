@@ -8,6 +8,7 @@
 		<link href="style.css" rel="stylesheet" type="text/css" media="all">
 		<link href="fugastra.jpeg" rel = "icon" type = "image/jpeg">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src = "script.js"></script>
 		<title>Fugastra's Portfolio</title>
 
 	</head>
@@ -17,13 +18,15 @@
 			<h1 id = "header">Fugastra | 七月流火</h1>
 			<p id = "header">七月流火，八月萑葦 -- 《诗经》</p>
 		</header>
-		<ul>
- 			<li><a href = "index.html">Home | 主頁</a></li>
-  		<li><a href = "about.html">About | 關於</a></li>
-			<li class = "current"><a href = "met.html">Now | 現時報道</a></li>
-  		<li style = "float: right;"><a href = "mailto:fugastra.qylh@gmail.com?subject=Hello :3">Email</a></li>
-		</ul>
-	 		
+		
+    <div class = "resnav" id = "naa">
+ 		  <a href = "index.html">Home | 主頁</id>
+  		<a href = "about.html">About | 關於</id>
+  		<a href = "met.html" class = "current">Now | 現時報道</a>
+      <a style = "float: right;" href = "mailto:fugastra.qylh@gmail.com?subject=Hello :3">Email</a>
+      <a href="javascript:void(0);" onclick = "ham()" class = "hidden" style= "float: right; padding: 5px 5px;"><img height = "50px" width = "50px" src= "imgs/ham.png"></a>
+    </div>
+    
 		<h2 id = "title" style = "text-align: center;">Now | 現時報道</h2>
 		  <div class = "responsive">
         <div class = "gallery">
@@ -47,7 +50,7 @@
       </div>
       <div class = "responsive">
         <div class = "gallery"> 
-          <h3 style = "padding:5px;" id = "title">Linux Evangelic moment 🐧</h3>
+          <h3 style = "padding:5px;" id = "title">Linux Evangelical moment 🐧</h3>
           <p style = "padding: 5px;">I've been preaching non-stop about using Linux and joining the indie web movement to my friends. I'm gonna start hosting mini coding lessons at this point.
             <br> It's at the stage where my friends and I would be playing Minecraft, they would complain about bad performance and I'd go, "Use linux, it's faster". (2fps gaming :smirk:)
           </p>
