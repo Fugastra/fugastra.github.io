@@ -3,8 +3,19 @@ function share() {
   navigator.clipboard.writeText("https://fugastra.github.io/");
 
   // Alert the copied text
-  alert("Successfully copied link! Thank you for sharing :)) | 成功複製，感謝分享");
+  alert("📋 Link Copied 複製成功 :D");
 } 
+
+function addme() {
+  var cpyt = document.getElementById("txt");
+
+  cpyt.select();
+  cpyt.setSelectionRange(0, 99999);
+
+  navigator.clipboard.writeText(cpyt.value);
+
+  alert("📋 Link Copied 複製成功 :D");
+}
 
 function ham() {
   var x = document.getElementById("naa");

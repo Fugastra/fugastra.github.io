@@ -268,3 +268,22 @@ hr{
       border-color: transparent;
     }  
 }
+
+.addme{
+  background-color: #25286B;
+  border: none;
+  color: white;
+  padding: 6px 7px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  cursor: copy;
+}
+
+.addme:hover{
+  background-color: #4247AB;
+  font-size: 16px;
+}
+
+
