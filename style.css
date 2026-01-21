@@ -240,4 +240,31 @@ hr{
         padding:10px;
         text-align: center;
 }
-    
+
+.mini{
+  display:flex;
+  justify-content: center;
+}
+
+.mini h1{
+  margin-inline: auto;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 2px solid;
+  animation: type 2s steps(17) forwards, blink 1s step-end infinite;
+}
+
+@keyframes type{
+  from{
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink{
+  50% {
+      border-color: transparent;
+    }  
+}
