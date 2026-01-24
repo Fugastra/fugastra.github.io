@@ -143,7 +143,7 @@ div.gallery{
 
 div.gallery:hover{
 	border: 2px solid #4247AB;
-  background-color: #FEFAE2;
+  background-color: #EBEBF9;
 }
 
 div.gallery img{
@@ -286,4 +286,56 @@ hr{
   font-size: 16px;
 }
 
+.fcont{
+  padding: 2%;
+  display: block;
+  justify-content: center;
+}
 
+.sch button{
+  background-color: #25286B;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 3px;
+  padding: 8px 16px;
+}
+
+.sch input{
+  width: 90%;
+  padding: 12px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  border:none;
+  border-bottom: 2px solid #25286B;
+}
+
+@media only screen and (max-width:600px){
+  .fcont{
+    display:flex;
+    justify-content: center;
+    float:right;
+    padding: 25px;
+  }
+  .sch{
+    display:inline;
+    justify-content: center;
+  }
+  .sch button{
+    padding: 5px 5px;
+    font-size: 13px;
+  }
+}
+
+.tag{
+  background: #7DC4E4; 
+  font-size: 0.7em; 
+  border-radius: 4px; 
+  padding: 5px;
+  width: max-content;
+}
+
+.clk{
+  text-decoration:none;
+  color: black;
+}

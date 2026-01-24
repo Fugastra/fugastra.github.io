@@ -25,3 +25,13 @@ function ham() {
     x.className = "resnav";
   }
 } 
+
+const search = document.getElementById("search");
+search.addEventListener('keyup', srch());
+
+function srch() {
+  const term = search.value;
+  
+  
+
+}
