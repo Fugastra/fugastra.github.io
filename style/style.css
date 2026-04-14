@@ -82,7 +82,14 @@ body{
   width: auto;
   float: left;
   border-radius: 50%;
+}
 
+.phot{
+  display: block;
+  height: 200px;
+  width: auto;
+  float: left;
+  border-radius: 8px;
 }
 
 .abt{
@@ -347,3 +354,19 @@ hr{
   border-radius:10px;
 }
 
+.content-wrapper{
+  width: 100%;
+  text-align: center;
+}
+
+.content-cont{
+  background-color: white;
+  border: 1px solid #25286B;
+  box-shadow: 0px 2px 5px #7c39653f;
+  border-radius: 8px;
+  width: 140px;
+  margin: 8px 6px;
+  display: inline-block;
+  box-sizing: border-box;
+  font-size: 17px;
+}
