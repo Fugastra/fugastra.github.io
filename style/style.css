@@ -362,11 +362,15 @@ hr{
 .content-cont{
   background-color: white;
   border: 1px solid #25286B;
-  box-shadow: 0px 2px 5px #7c39653f;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 8px;
   width: 140px;
   margin: 8px 6px;
   display: inline-block;
   box-sizing: border-box;
   font-size: 17px;
+}
+
+.content-cont:hover{
+  background-color:#E8F0FF;
 }
