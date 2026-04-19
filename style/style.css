@@ -374,3 +374,22 @@ hr{
 .content-cont:hover{
   background-color:#E8F0FF;
 }
+
+.section{
+  width: 100%;
+  background-color: var(--section-bg);
+  border: 1px solid var(--accent);
+  border-radius: 8px;
+  margin-bottom: 16px;
+  font-family: simple-kind-of-girl;
+  overflow: hidden;
+  box-shadow: 2px 2px 0px var(--accent);
+}
+
+#maps{
+  height: 800px;
+  border: 2px solid #25286B;
+  margin: 24px;
+  border-radius: 8px;
+  overflow-y: scroll;
+}
