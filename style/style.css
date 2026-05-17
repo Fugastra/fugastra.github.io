@@ -393,3 +393,103 @@ hr{
   border-radius: 8px;
   overflow-y: scroll;
 }
+
+.cat{
+  flex-direction: column;
+  height: fit-content;
+  display: flex;
+}
+
+.tokill{
+  flex-direction: column;
+  gap: 8px;
+  display: flex;
+}
+
+.item-done{
+  border-left-color: #2f5d50;
+}
+
+.item-oklah{
+  border-left-color: #3a3a3a;
+}
+
+.item-partial{
+  border-left-color: #948210;
+}
+
+.tokill-box{
+    background: #E6E7F7;
+    border: 1px solid #333;
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: rgb(51, 51, 51);
+    border-left: 3px solid #555;
+    border-left-color: rgb(85, 85, 85);
+    border-radius: 4px;
+    padding: 12px 14px;
+}
+
+.tokill-head{
+  color: #25296B;
+  margin: 0 0 6px;
+  font-size: .9rem;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.tokill-detail{
+  color: #5359AC;
+  margin: 0;
+  font-size: .85rem;
+  line-height: 1.6;
+}
+
+.pill{
+    letter-spacing: .08em;
+    white-space: nowrap;
+    vertical-align: middle;
+    border-radius: 2px;
+    margin-left: 6px;
+    padding: 1px 5px;
+    font-size: .6rem;
+    font-weight: 700;
+    display: inline-block;
+}
+
+.done-pill{
+  color: #a8e6cf;
+  background: #1e4d3a;
+}
+
+.oklah-pill{
+  color: #888;
+  background: #2a2a2a;
+}
+
+.partial-pill{
+  color: #f0b050;
+  background: #948210;
+}
+
+.bar{
+  opacity: .8;
+  background: repeating-linear-gradient(-45deg,#c22,#c22 8px,#3a1a1a 8px 18px);
+  border-radius: 2px;
+  height: 6px;
+  margin: .75rem 0 1.25rem;
+}
+
+.badge{
+    color: #fff;
+    font-family: var(--font-body);
+    letter-spacing: .12em;
+    vertical-align: middle;
+    background: #c22;
+    border-radius: 2px;
+    margin-left: .5rem;
+    padding: 2px 8px;
+    font-size: .65rem;
+    animation: 2.5s step-end infinite danger-blink;
+    display: inline-block;
+}
