@@ -4,7 +4,7 @@
 }
 .respon{
   padding: 5px 6px;
-  width: 45%;
+  width: 49%;
   display: inline-block;
 }
 
@@ -78,8 +78,8 @@
 .content-cont{
   background-color: white;
   border: 1px solid #25286B;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  border-radius: 8px;
+  filter: drop-shadow(6px 6px 0px rgba(0, 0, 0, 1));
+  border-radius: 0px;
   width: 140px;
   margin: 8px 6px;
   display: inline-block;
@@ -91,6 +91,31 @@
   background-color:#E8F0FF;
 }
 
+#pfp{
+  width: 67px;
+}
+
+#game{
+  margin: 5px;
+  height: auto;
+  width: 30%;
+  border: 1px solid #25286B;
+  filter: drop-shadow(6px 6px 0px rgba(0, 0, 0, 1));
+}
+
+#game:hover{
+  width: 32%;
+}
+
+#voca{
+  margin:5px;
+  height: auto;
+  width: 50%;
+}
+
+.teto:hover{
+  color: #ea1e63; 
+}
 
 body{
 	font-family: "Consolas",monospace;
